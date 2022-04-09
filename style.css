@@ -1,0 +1,49 @@
+body {
+	color: black;
+	background-color: white;
+
+}
+
+table {
+	border: 2px solid black;
+	border-collapse: collapse;
+}
+
+td {
+	border: 2px solid black;
+}
+
+.center {
+	vertical-align: center;
+	text-align: center;
+}
+
+.plus {
+	color: green;
+}
+
+.slab {
+	color: red;
+}
+
+.silen {
+	color: green;
+}
+
+ td {
+	background-image: linear-gradient(lightgreen, pink);
+	background-repeat: no-repeat;
+	background-size: 0% 100%;
+	background-position-x: right;
+
+	transition: background-size 500ms;
+}	
+
+td:hover {
+	background-size: 100% 100%;
+	background-position-x: left;
+}
+
+sup {
+	font-weight: bold;
+}
